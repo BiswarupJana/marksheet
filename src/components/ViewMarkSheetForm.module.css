@@ -1,5 +1,22 @@
 .marksheet_form{
     margin: 10px;
     align-items: center;
-    background-color: rgb(225, 226, 226);
+    background-color: white;
+    border: 5px;
+    border-radius: 20px;
+}
+
+
+
+
+.studentInfo_div{
+    borser: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+.studentInfo_bar{
+        margin: 10px;
+        padding-left: 20px;
+
+    background-color: whitesmoke !important;
 }

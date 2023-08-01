@@ -214,9 +214,13 @@ const ViewMarkSheetForm = () => {
         </Box>
       </div>
       {/* {showBox && ( */}
-      <div>
+      <div className={classes.studentInfo_div}>
         <Box>
-          <Typography variant="h5" gutterBottom>
+          <Typography
+            variant="h5"
+            gutterBottom
+            className={classes.studentInfo_bar}
+          >
             Student info
           </Typography>
           <div>
