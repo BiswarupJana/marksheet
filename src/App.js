@@ -2,6 +2,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./pages/Root";
 import MarkSheetDropDown from "./pages/MarkSheet";
 import ErrorPage from "./pages/Error";
+import "./App.css";
+
 
 const router = createBrowserRouter([
   {
@@ -13,7 +15,12 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <div className="App">
+      <RouterProvider router={router} />;
+    </div>
+  );
+ 
 }
 
 export default App;
