@@ -224,7 +224,7 @@ const ViewMarkSheetForm = () => {
             Student info
           </Typography>
           <div>
-            <Box>
+            <Box className={classes.StudentInfo_bar_class}>
               <Typography>
                 Class: {formData?.selectedClass?.class_name}
               </Typography>

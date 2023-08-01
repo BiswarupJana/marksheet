@@ -4,6 +4,7 @@
     background-color: white;
     border: 5px;
     border-radius: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -17,6 +18,15 @@
 .studentInfo_bar{
         margin: 10px;
         padding-left: 20px;
+        border-radius: 30px;
 
-    background-color: whitesmoke !important;
+    background-color: rgba(179, 160, 160, 0.281) !important;
+}
+
+.StudentInfo_bar_class{
+    margin: 10px;
+        padding-left: 20px;
+        border-radius: 10px;
+        margin: 5px;
+        box-shadow: inset 0 0 10px #999897;
 }
