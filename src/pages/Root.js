@@ -5,7 +5,8 @@ import ManageMarksheet from "./ManageMarksheet";
 const RootLayout = () => {
   return (
     <>
-      <ManageMarksheet />;<main>{<Outlet />}</main>
+      <ManageMarksheet />
+      <main>{<Outlet />}</main>
     </>
   );
 };
